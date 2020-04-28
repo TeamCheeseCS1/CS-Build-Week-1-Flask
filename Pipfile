@@ -12,6 +12,7 @@ gunicorn = "*"
 pusher = "*"
 python-decouple = "*"
 bcrypt = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.7"

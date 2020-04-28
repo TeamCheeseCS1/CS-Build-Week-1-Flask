@@ -39,8 +39,9 @@ def get_player_by_header(world, auth_header):
     return player
 
 @app.route('/')
-    def root():
-        return 'Nothin'
+def hello_world():
+    return 'Hello, World!'
+
 @app.route('/api/registration/', methods=['POST'])
 def register():
     values = request.get_json()
